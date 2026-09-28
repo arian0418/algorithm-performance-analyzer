@@ -1,6 +1,6 @@
 # Algorithm Performance Analyzer
 
-A Java benchmarking project that compares sorting and searching algorithms across multiple input sizes using execution-time measurements.
+A Java benchmarking project that compares sorting and searching algorithms across multiple input sizes using measured execution times.
 
 ## What It Compares
 
@@ -52,12 +52,12 @@ The program currently benchmarks:
 20,000
 ```
 
-These sizes keep the quadratic selection-sort benchmark practical while still making its scaling behavior visible.
+These sizes keep the quadratic selection sort benchmark practical while still making its scaling behavior visible.
 
 ## Benchmarking Note
 
-This project is intended as an educational algorithm comparison rather than a production-grade Java benchmark. JVM warm-up, JIT compilation, hardware, and background processes can affect individual timing results. For rigorous JVM microbenchmarking, a framework such as JMH would be more appropriate.
+This project is intended as an educational algorithm comparison rather than a production Java benchmark. JVM startup and warmup, JIT compilation, hardware, and background processes can affect individual timing results. For rigorous JVM microbenchmarking, a framework such as JMH would be more appropriate.
 
 ## Concepts Demonstrated
 
-Java arrays, sorting algorithms, searching algorithms, Big-O analysis, defensive array copying, randomized test data, and basic performance measurement.
+Java arrays, sorting algorithms, searching algorithms, algorithmic complexity analysis, defensive array copying, randomized test data, and basic performance measurement.
